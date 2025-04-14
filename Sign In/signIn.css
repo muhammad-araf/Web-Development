@@ -1,0 +1,17 @@
+#myId{
+    background-color: grey;
+    border-radius: 40px;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+input{
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    
+}
