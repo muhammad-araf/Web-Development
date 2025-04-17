@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(to right, black, #00ffa6a5);
+    background-size: no-repeat;
+    background-position: right top;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    /* justify-content: center; */
+    height: 40rem;
+    width: 30rem;
+    background-color: #00ffa6;
+    border-width: 100px;
+    border-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px #00000077;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+}
+input[type = "text"]{
+    width: 23rem;
+    height: 4rem;
+    border-radius: 10px;
+    color: rgb(25, 91, 46);
+    margin-top: 1.8rem;
+    border-color: rgb(0, 255, 115);
+    border-width: 2px;
+    font-size: 3rem;
+    text-align: right;
+    margin-bottom: 1.8rem;
+
+}
+
+form .buttons{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding-right: 4 rem;
+    padding-left: 4 rem;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+
+}
+
+.buttons input{
+    background-color: #c8ffedf1;
+    width: fit-content;
+    min-height: 5rem;
+    min-width: 5rem;
+    margin-left: 0.8rem;
+    
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons input:hover{
+    background-color: #497b6a8e;
+    color: white;
+    cursor: pointer;
+}
+form .equal{
+    min-width: 76%;
+}
